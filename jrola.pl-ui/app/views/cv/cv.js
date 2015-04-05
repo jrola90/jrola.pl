@@ -1,14 +1,13 @@
 'use strict';
 
-angular.module('myApp.cv', ['ngRoute'])
-
-.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/cv', {
-    templateUrl: 'views/cv/cv.html',
-    controller: 'CvCtrl'
-  });
-}])
-
-.controller('CvCtrl', [function() {
-
-}]);
+angular.module('myApp.cv', ['ngRoute',
+                            'myApp.courses',
+                            'myApp.education',
+                            'myApp.experience',
+                            'myApp.other',
+                            'myApp.projects',
+                            'myApp.skills'
+])
+    .config(['$routeProvider', function ($routeProvider) {
+        $routeProvider.otherwise({redirectTo: '/cv/skills'});
+    }]);
