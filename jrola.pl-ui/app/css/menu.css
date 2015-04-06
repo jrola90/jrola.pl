@@ -1,0 +1,31 @@
+.menu {
+    background-color: #006dcc;
+}
+
+.menu_item {
+    display: inline;
+    padding: 0 0 0.5em;
+    color: #ffffff;
+}
+
+.menu_item > a {
+    color: white;
+    font-weight: bold;
+}
+
+.submenu {
+    background-color: #0f9fcc;
+}
+
+.submenu_item {
+    display: inline;
+    padding: 0 0 0.5em;
+    color: #ffffff;
+}
+
+.submenu_item > a {
+    color: white;
+    font-weight: bold;
+}
+
+
