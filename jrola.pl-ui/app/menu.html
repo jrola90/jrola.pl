@@ -1,6 +1,6 @@
-<div class="menu">
-    <div class="menu_item"><a href="#/index">Index</a> | </div>
-    <div class="menu_item"><a href="#/cv/skills">CV</a> | </div>
-    <div class="menu_item"><a href="#/blog">Blog</a> | </div>
-    <div class="menu_item"><a href="#/contact">Contact</a></div>
+<div class="menu" ng-controller="MyAppCtrl">
+    <div ng-click="selectMenuItem('index')" class="menu_item" ng-class="state.index === true ? 'selected' : ''"><a href="#/index">Index</a> </div>
+    <div ng-click="selectMenuItem('cv')" class="menu_item" ng-class="state.cv === true ? 'selected' : ''"><a href="#/cv/skills">CV</a> </div>
+    <div ng-click="selectMenuItem('blog')" class="menu_item" ng-class="state.blog === true ? 'selected' : ''"><a href="#/blog">Blog</a> </div>
+    <div ng-click="selectMenuItem('contact')" class="menu_item" ng-class="state.contact === true ? 'selected' : ''"><a href="#/contact">Contact</a></div>
 </div>

@@ -2,19 +2,30 @@
     background-color: #006dcc;
 }
 
+.menu > .selected {
+    background-color: #0f9fcc;
+}
+
 .menu_item {
+    margin-left: 10px;
+    margin-right: 10px;
     display: inline;
     padding: 0 0 0.5em;
     color: #ffffff;
 }
 
 .menu_item > a {
+    padding: 0px 10px 0px 10px;
     color: white;
     font-weight: bold;
 }
 
 .submenu {
     background-color: #0f9fcc;
+}
+
+.submenu > .selected > a {
+    color: yellow;
 }
 
 .submenu_item {
