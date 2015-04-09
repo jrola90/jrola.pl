@@ -1,0 +1,46 @@
+angular.module('myApp')
+    .config(['$routeProvider', function ($routeProvider) {
+        $routeProvider.when('/index', {
+            templateUrl: 'views/index/index.html',
+            controller: 'IndexCtrl',
+            menu: 'index'
+        }).when('/blog', {
+            templateUrl: 'views/blog/blog.html',
+            controller: 'BlogCtrl',
+            menu: 'blog'
+        }).when('/cv/courses', {
+            templateUrl: 'views/cv/parts/courses/courses.html',
+            controller: 'CoursesCtrl',
+            menu: 'cv',
+            submenu: 'courses'
+        }).when('/cv/education', {
+            templateUrl: 'views/cv/parts/education/education.html',
+            controller: 'EducationCtrl',
+            menu: 'cv',
+            submenu: 'education'
+        }).when('/cv/experience', {
+            templateUrl: 'views/cv/parts/experience/experience.html',
+            controller: 'ExperienceCtrl',
+            menu: 'cv',
+            submenu: 'experience'
+        }).when('/cv/other', {
+            templateUrl: 'views/cv/parts/other/other.html',
+            controller: 'OtherCtrl',
+            menu: 'cv',
+            submenu: 'other'
+        }).when('/cv/projects', {
+            templateUrl: 'views/cv/parts/projects/projects.html',
+            controller: 'ProjectsCtrl',
+            menu: 'cv',
+            submenu: 'projects'
+        }).when('/cv/skills', {
+            templateUrl: 'views/cv/parts/skills/skills.html',
+            controller: 'SkillsCtrl',
+            menu: 'cv',
+            submenu: 'skills'
+        }).when('/contact', {
+            templateUrl: 'views/contact/contact.html',
+            controller: 'ContactCtrl',
+            menu: 'contact'
+        }).otherwise({redirectTo: '/index'});
+    }]);
