@@ -1,42 +1,62 @@
+/* main menu */
+
 .menu {
     background-color: #006dcc;
+    height: 40px;
+    width: 100%;
 }
 
 .menu > .selected {
     background-color: #0f9fcc;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px 10px 0px 0px
 }
 
 .menu_item {
+    position: relative;
+    top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    padding: 5px 10px 5px 10px;
     display: inline;
-    padding: 0 0 0.5em;
     color: #ffffff;
 }
 
 .menu_item > a {
-    padding: 0px 10px 0px 10px;
+    height: 35px;
     color: white;
     font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
 }
+
+/* cv submenu */
 
 .submenu {
     background-color: #0f9fcc;
+    height: 30px;
+    width: 100%;
 }
 
 .submenu > .selected > a {
-    color: yellow;
+    color: #006dcc;
+    background-color: white;
+    font-size: 13px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .submenu_item {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 11px;
     display: inline;
-    padding: 0 0 0.5em;
     color: #ffffff;
+    padding: 5px 10px 5px 10px;
 }
 
 .submenu_item > a {
     color: white;
-    font-weight: bold;
+    text-decoration: none;
 }
-
-
