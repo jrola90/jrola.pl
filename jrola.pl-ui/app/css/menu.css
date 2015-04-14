@@ -29,34 +29,3 @@
     font-size: 16px;
     text-decoration: none;
 }
-
-/* cv submenu */
-
-.submenu {
-    background-color: #0f9fcc;
-    height: 30px;
-    width: 100%;
-}
-
-.submenu > .selected > a {
-    color: #006dcc;
-    background-color: white;
-    font-size: 13px;
-    padding: 5px 10px 5px 10px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.submenu_item {
-    margin-left: 10px;
-    margin-right: 10px;
-    position: relative;
-    top: 11px;
-    display: inline;
-    color: #ffffff;
-    padding: 5px 10px 5px 10px;
-}
-
-.submenu_item > a {
-    color: white;
-    text-decoration: none;
-}
