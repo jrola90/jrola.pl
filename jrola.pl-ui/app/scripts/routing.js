@@ -1,4 +1,4 @@
-angular.module('myApp')
+myAppModule
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/index', {
             templateUrl: 'views/index/index.html',

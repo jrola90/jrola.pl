@@ -1,0 +1,2 @@
+myAppConfigModule
+    .constant('mocked', true);

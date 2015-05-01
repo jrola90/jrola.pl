@@ -1,0 +1,6 @@
+
+myAppCvCoursesModule
+
+.controller('CoursesCtrl', [function() {
+
+}]);

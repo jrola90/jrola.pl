@@ -1,0 +1,5 @@
+myAppCvProjectsModule
+
+    .controller('ProjectsCtrl', [function () {
+
+    }]);

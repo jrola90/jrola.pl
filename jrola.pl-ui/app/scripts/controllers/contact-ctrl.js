@@ -1,0 +1,6 @@
+
+myAppContactModule
+
+.controller('ContactCtrl', [function() {
+
+}]);

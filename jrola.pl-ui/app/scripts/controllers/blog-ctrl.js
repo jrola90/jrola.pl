@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.blog', ['ngRoute'])
+myAppBlogModule
 
 .controller('BlogCtrl', [function() {
 

@@ -1,0 +1,5 @@
+myAppCvExperienceModule
+
+.controller('ExperienceCtrl', [function() {
+
+}]);

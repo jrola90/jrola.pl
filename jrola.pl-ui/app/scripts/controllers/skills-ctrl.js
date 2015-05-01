@@ -1,0 +1,5 @@
+myAppCvSkillsModule
+
+    .controller('SkillsCtrl', [function () {
+
+    }]);
