@@ -1,7 +1,9 @@
-'use strict';
+(function () {
+    myAppBlogModule
 
-myAppBlogModule
+        .controller('BlogCtrl', function () {
 
-.controller('BlogCtrl', [function() {
+        });
 
-}]);
+
+})();

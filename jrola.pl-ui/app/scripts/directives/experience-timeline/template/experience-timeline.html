@@ -1,0 +1,69 @@
+<div style="height: {{timelineLength}}px">
+    <div style="width: 15px; float: left;">
+        <div ng-repeat="item in timeRanges"
+             style="background-color: {{item.color}}; height: {{item.height}}px; border-radius: 10px 10px 10px 10px; cursor: pointer;"
+             ng-click="selectItem(item.id)">
+            &nbsp;
+
+
+        </div>
+    </div>
+
+    <div style="margin-left: 15px; ">
+
+        <div
+                ng-class="(row.id===selectedIndex) ? 'selected-experience-item' : 'unselected-experience-item'"
+                ng-repeat="row in model" style="background-color: {{timeRanges[$index].color}}"
+                ng-click="selectItem(row.id)">
+
+            <div ng-if="selectedIndex == row.id">
+                <div style="width: 100%;">
+                    <span class="selected-experience-item-title">{{row.role}} @ {{row.company}}</span> <br/>
+                    <span class="selected-experience-item-subtitle">{{row.dateStart}} - {{row.dateEnd}}</span> <br/>
+                    <hr/>
+                </div>
+                <div>
+                    <div>
+                        <div class="selected-experience-item-logo">
+                            <img src="images/logos/{{row.image}}"/>
+                        </div>
+                        <div style="width: auto; overflow: hidden;">
+                            <span class="selected-experience-item-responsibilities" ng-if="row.responsibilities">
+                                Main duties and responsibilities:<br>
+                                <ul>
+                                    <li ng-repeat="resp in row.responsibilities">- {{resp}},</li>
+                                </ul>
+                            </span>
+                            <br>
+                            <span class="selected-experience-item-details" ng-if="row.details">
+                                <ul>
+                                    <li ng-if="row.details.technologies">- Technologies: <span
+                                            ng-repeat="technology in row.details.technologies">{{technology}}, </span>
+                                    </li>
+                                    <li ng-if="row.details.frameworks">- Frameworks: <span
+                                            ng-repeat="framework in row.details.frameworks">{{framework}}, </span>
+                                    </li>
+                                    <li ng-if="row.details.servers">- Servers: <span
+                                            ng-repeat="server in row.details.servers">{{server}}, </span>
+                                    </li>
+                                    <li ng-if="row.details.databases">- Databases: <span
+                                            ng-repeat="database in row.details.databases">{{database}}, </span>
+                                    </li>
+                                    <li ng-if="row.details.tools">- Tools: <span
+                                            ng-repeat="tool in row.details.tools">{{tool}}, </span>
+                                    </li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div ng-if="selectedIndex != row.id">
+                {{row.role}} @ {{row.company}}
+                <span style="font-style: italic">({{row.dateStart}} - {{row.dateEnd}})</span>
+            </div>
+
+        </div>
+    </div>
+</div>

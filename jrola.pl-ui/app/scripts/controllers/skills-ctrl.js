@@ -1,5 +1,0 @@
-myAppCvSkillsModule
-
-    .controller('SkillsCtrl', [function () {
-
-    }]);

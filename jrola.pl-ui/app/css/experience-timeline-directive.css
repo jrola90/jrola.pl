@@ -1,0 +1,45 @@
+.selected-experience-item {
+    font-weight: bold;
+    min-height: 180px;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+
+}
+
+.selected-experience-item-logo {
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    weight: 200px;
+    float: right;
+    background-color: white;
+}
+
+.selected-experience-item-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.selected-experience-item-subtitle {
+    font-style: italic;
+    font-size: 14px;
+    color: #606060;
+    font-weight: 400;
+}
+
+.selected-experience-item-responsibilities {
+    font-weight: 400;
+    color: #606060;
+}
+
+.selected-experience-item-details {
+    font-weight: 400;
+    color: #606060;
+}
+
+.unselected-experience-item {
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
     <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.css"/>
     <link rel="stylesheet" href="css/app.css">
     <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
     <!-- In production use:
@@ -24,27 +25,40 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
 
     <!-- modules -->
     <script src="scripts/app.js"></script>
     <script src="scripts/constants.js"></script>
     <script src="scripts/controllers/my-app-ctrl.js"></script>
     <script src="scripts/routing.js"></script>
+
+    <!-- controllers -->
     <script src="scripts/controllers/index-ctrl.js"></script>
-    <script src="scripts/controllers/courses-ctrl.js"></script>
-    <script src="scripts/controllers/education-ctrl.js"></script>
-    <script src="scripts/controllers/experience-ctrl.js"></script>
-    <script src="scripts/controllers/other-ctrl.js"></script>
-    <script src="scripts/controllers/projects-ctrl.js"></script>
-    <script src="scripts/controllers/skills-ctrl.js"></script>
+    <script src="scripts/controllers/cv/courses-ctrl.js"></script>
+    <script src="scripts/controllers/cv/education-ctrl.js"></script>
+    <script src="scripts/controllers/cv/experience-ctrl.js"></script>
+    <script src="scripts/controllers/cv/other-ctrl.js"></script>
+    <script src="scripts/controllers/cv/projects-ctrl.js"></script>
+    <script src="scripts/controllers/cv/skills-ctrl.js"></script>
     <script src="scripts/controllers/contact-ctrl.js"></script>
     <script src="scripts/controllers/blog-ctrl.js"></script>
+    <script src="scripts/modals/experience-details/experience-details-modal-ctrl.js"></script>
 
     <!-- services -->
+    <script src="scripts/services/utils-service.js"></script>
+    <script src="scripts/services/modal-service.js"></script>
     <script src="scripts/services/config-service.js"></script>
-    <script src="scripts/data/data-service.js"></script>
-    <script src="scripts/data/mocked-data-service.js"></script>
-    <script src="scripts/data/server-data-service.js"></script>
+    <script src="scripts/services/data/data-service.js"></script>
+    <script src="scripts/services/data/mocked-data-service.js"></script>
+    <script src="scripts/services/data/server-data-service.js"></script>
+    <script src="scripts/modals/experience-details/experience-details-modal-service.js"></script>
+    <script src="scripts/directives/experience-timeline/experience-timeline-service.js"></script>
+
+    <!-- directives -->
+    <script src="scripts/directives/skills-box/skills-box.js"></script>
+    <script src="scripts/directives/experience-timeline/experience-timeline.js"></script>
 
     <!-- other -->
     <script src="components/version/version.js"></script>
@@ -52,7 +66,6 @@
     <script src="components/version/interpolate-filter.js"></script>
 </head>
 <body>
-
 
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
@@ -63,11 +76,8 @@
     <div ng-include="'menu.html'"></div>
     <div ng-view>
     </div>
+
+    <div ng-include="'footer.html'"></div>
 </div>
-
-
-<div ng-include="'footer.html'"></div>
-
 </body>
 </html>
-

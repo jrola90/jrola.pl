@@ -27,6 +27,7 @@
     myAppModule = angular.module('myApp', [
         'ngRoute',
         'ui.bootstrap',
+        'ui.grid',
         'myApp.index',
         'myApp.cv',
         'myApp.blog',

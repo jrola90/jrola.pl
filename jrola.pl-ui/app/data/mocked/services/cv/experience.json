@@ -1,0 +1,88 @@
+[
+  {
+    "id": 3,
+    "dateStart": "2014-12",
+    "dateEnd": "now",
+    "role": "Programmer / Analyst",
+    "company": "Brown Brothers Harriman ",
+    "image": "BBH.jpg",
+    "responsibilities": [
+      "Code, implement and test new features and modules for market applicatons and systems",
+      "Compare and document code before releasing to production",
+      "Contributing to requirements definition and application design",
+      "Developing application functionality which meets business requirements",
+      "Provide responsive support for business areas"
+    ],
+    "details": {
+      "technologies": [
+        "Java",
+        "Javascript"
+      ],
+      "frameworks": [
+        "Spring",
+        "Hibernate",
+        "JSF",
+        "AngularJS"
+      ],
+      "servers": [
+        "IBM Websphere",
+        "IBM Liberty Profile"
+      ],
+      "databases": ["Oracle Database"],
+      "tools": [
+        "Eclipse",
+        "SQL Developer",
+        "Tortoise SVN",
+        "Maven",
+        "Jenkins",
+        "IntelliJ IDEA",
+        "WebStorm"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "dateStart": "2012-10",
+    "dateEnd": "2014-11",
+    "role": "PL/SQL & Java Developer",
+    "company": "Comarch",
+    "image": "comarch.jpg",
+    "responsibilities": [
+      "Developing new functionalities and testing of ERP class system",
+      "Providing maintenance and support for ERP class system"
+    ],
+    "details": {
+      "technologies": [
+        "Java",
+        "PL/SQL"
+      ],
+      "frameworks": [
+        "Oracle ADF",
+        "GWT",
+        "Oracle Forms"
+      ],
+      "servers": [
+        "Oracle Weblogic",
+        "Apache Tomcat"
+      ],
+      "databases": ["Oracle Database"],
+      "tools": [
+        "Eclipse",
+        "JDeveloper",
+        "SQL Developer",
+        "Forms Builder",
+        "Tortoise SVN"
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "dateStart": "2012-07",
+    "dateEnd": "2012-09",
+    "role": "Intern",
+    "company": "Comarch",
+    "image": "comarch.jpg",
+    "responsibilities": [],
+    "details": []
+  }
+]

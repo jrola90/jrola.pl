@@ -1,5 +1,0 @@
-myAppCvExperienceModule
-
-.controller('ExperienceCtrl', [function() {
-
-}]);

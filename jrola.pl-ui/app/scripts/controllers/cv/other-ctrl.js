@@ -1,0 +1,5 @@
+myAppCvOthersModule
+
+    .controller('OtherCtrl', [function () {
+
+    }]);

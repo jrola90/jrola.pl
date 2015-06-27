@@ -1,10 +1,7 @@
-angular.module('myApp').service('configService', function (mockedDataService, serverDataService) {
+myAppModule.service('configService', function (config, mockedDataService, serverDataService) {
 
     this.configDataService = function () {
 
-        var config  = {
-            mocked : true
-        };
         var service = null;
 
         if (config.mocked === true)

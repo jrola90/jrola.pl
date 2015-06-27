@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "name": "Programming",
+    "list": [
+      {
+        "id": "1",
+        "name": "Java",
+        "experience": [
+          {
+            "company": "BBH",
+            "periodStart": "2014-12",
+            "periodEnd": null
+          },
+          {
+            "company": "Comarch",
+            "periodStart": "2010-12",
+            "periodEnd": "2011-12"
+          }
+        ],
+        "items": [
+          {
+            "name": "Libraries & Frameworks",
+            "items": [
+              {
+                "name": "Spring",
+                "experience": [
+                  {
+                    "company": "BBH",
+                    "periodStart": "2010-12",
+                    "periodEnd": ""
+                  },
+                  {
+                    "company": "Comarch",
+                    "periodStart": "2009-12",
+                    "periodEnd": "2011-12"
+                  }
+                ]
+              },
+              {
+                "name": "Hibernate",
+                "experience": [
+                  {
+                    "company": "BBH",
+                    "periodStart": "2009-12",
+                    "periodEnd": ""
+                  },
+                  {
+                    "company": "Comarch",
+                    "periodStart": "2009-12",
+                    "periodEnd": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tools",
+            "items": [
+              {
+                "name": "Eclipse",
+                "experience": [
+                  {
+                    "company": "BBH",
+                    "periodStart": "2009-12",
+                    "periodEnd": ""
+                  },
+                  {
+                    "company": "Comarch",
+                    "periodStart": "2000-12",
+                    "periodEnd": ""
+                  }
+                ]
+              },
+              {
+                "name": "Oracle SQL Developer",
+                "experience": [
+                  {
+                    "company": "BBH",
+                    "periodStart": "2015-01",
+                    "periodEnd": ""
+                  },
+                  {
+                    "company": "Comarch",
+                    "periodStart": "2015-01",
+                    "periodEnd": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Servers",
+            "items": [
+              {
+                "name": "IBM Liberty Profile",
+                "experience": [
+                  {
+                    "company": "BBH",
+                    "periodStart": "2015-01",
+                    "periodEnd": ""
+                  },
+                  {
+                    "company": "Comarch",
+                    "periodStart": "2015-01",
+                    "periodEnd": ""
+                  }
+                ]
+              },
+              {
+                "name": "Tomcat",
+                "experience": [
+                  {
+                    "company": "BBH",
+                    "periodStart": "2015-01",
+                    "periodEnd": ""
+                  },
+                  {
+                    "company": "Comarch",
+                    "periodStart": "2015-01",
+                    "periodEnd": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Databases",
+    "list": [
+      {
+        "id": "1",
+        "name": "Oracle",
+        "experience": [
+          {
+            "company": "BBH",
+            "periodStart": "2015-01",
+            "periodEnd": ""
+          },
+          {
+            "company": "Comarch",
+            "periodStart": "2015-01",
+            "periodEnd": ""
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "MySQL",
+        "experience": [
+          {
+            "company": "BBH",
+            "periodStart": "2015-01",
+            "periodEnd": ""
+          },
+          {
+            "company": "Comarch",
+            "periodStart": "2015-01",
+            "periodEnd": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Other",
+    "list": [
+      {
+        "id": "1",
+        "name": "Photoshop",
+        "experience": [
+          {
+            "company": "BBH",
+            "periodStart": "2015-01",
+            "periodEnd": ""
+          },
+          {
+            "company": "Comarch",
+            "periodStart": "2015-01",
+            "periodEnd": ""
+          }
+        ]
+      }
+    ]
+  }
+]

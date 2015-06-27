@@ -1,6 +1,5 @@
 myAppIndexModule
 
     .controller('IndexCtrl', function ($scope, dataService) {
-
-        //$scope.lol = dataService.sayHello();
+        $scope.indexTitle = dataService.getIndexTitle();
     });

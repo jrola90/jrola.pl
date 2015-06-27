@@ -1,0 +1,63 @@
+<accordion close-others="closeOthers">
+    <accordion-group is-open="statuses.programmingCard">
+        <accordion-heading>
+            {{ngModel[0].name}}
+            <i class="pull-right glyphicon"
+               ng-class="{'glyphicon-chevron-down': statuses.programmingCard, 'glyphicon-chevron-right': !statuses.programmingCard}"></i>
+        </accordion-heading>
+        <ul>
+            <li ng-repeat="programmingLang in ngModel[0].list">{{programmingLang.name}} <i class="glyphicon pointer"
+                                                                                           ng-class="'glyphicon-info-sign'"
+                                                                                           ng-click="showDetails(programmingLang)"></i>
+                <ul>
+                    <li ng-repeat="lib in programmingLang.items">&nbsp;&nbsp;{{lib.name}}
+                        <ul>
+                            <li ng-repeat="item in lib.items">&nbsp;&nbsp;&nbsp;&nbsp;{{item.name}} <i
+                                    class="glyphicon pointer"
+                                    ng-class="'glyphicon-info-sign'" ng-click="showDetails(item)"></i>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </accordion-group>
+
+    <accordion-group is-open="statuses.databaseCard">
+        <accordion-heading>
+            {{ngModel[1].name}}
+            <i class="pull-right glyphicon"
+               ng-class="{'glyphicon-chevron-down': statuses.databaseCard, 'glyphicon-chevron-right': !statuses.databaseCard}"></i>
+        </accordion-heading>
+        <ul>
+            <li ng-repeat="db in ngModel[1].list">{{db.name}} <i class="glyphicon pointer"
+                                                                 ng-class="'glyphicon-info-sign'"
+                                                                 ng-click="showDetails(db)"></i>
+                <ul>
+                    <li ng-repeat="tools in db.items">&nbsp;&nbsp;{{tools.name}} <i class="glyphicon pointer"
+                                                                                    ng-class="'glyphicon-info-sign'"
+                                                                                    ng-click="showDetails(item)"></i>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </accordion-group>
+
+    <accordion-group is-open="statuses.othersCard">
+        <accordion-heading>
+            {{ngModel[2].name}}
+            <i class="pull-right glyphicon"
+               ng-class="{'glyphicon-chevron-down': statuses.othersCard, 'glyphicon-chevron-right': !statuses.othersCard}"></i>
+
+        </accordion-heading>
+        <ul>
+            <li ng-repeat="item in ngModel[2].list">{{item.name}} <i class="glyphicon pointer"
+                                                                     ng-class="'glyphicon-info-sign'"
+                                                                     ng-click="showDetails(item)"></i>
+            </li>
+        </ul>
+    </accordion-group>
+
+</accordion>
+
+Click <i class="glyphicon" ng-class="'glyphicon-info-sign'"></i> to see experience.<br>
