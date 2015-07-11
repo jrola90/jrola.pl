@@ -45,6 +45,7 @@
     <script src="scripts/controllers/contact-ctrl.js"></script>
     <script src="scripts/controllers/blog-ctrl.js"></script>
     <script src="scripts/modals/experience-details/experience-details-modal-ctrl.js"></script>
+    <script src="scripts/modals/project-details/project-details-modal-ctrl.js"></script>
 
     <!-- services -->
     <script src="scripts/services/utils-service.js"></script>
@@ -54,11 +55,13 @@
     <script src="scripts/services/data/mocked-data-service.js"></script>
     <script src="scripts/services/data/server-data-service.js"></script>
     <script src="scripts/modals/experience-details/experience-details-modal-service.js"></script>
+    <script src="scripts/modals/project-details/project-details-modal-service.js"></script>
     <script src="scripts/directives/experience-timeline/experience-timeline-service.js"></script>
 
     <!-- directives -->
     <script src="scripts/directives/skills-box/skills-box.js"></script>
     <script src="scripts/directives/experience-timeline/experience-timeline.js"></script>
+    <script src="scripts/directives/project-item/project-item.js"></script>
 
     <!-- other -->
     <script src="components/version/version.js"></script>
@@ -72,7 +75,7 @@
     your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div ng-controller="MyAppCtrl">
+<div ng-controller="MyAppCtrl" style="min-width: 650px;">
     <div ng-include="'menu.html'"></div>
     <div ng-view>
     </div>

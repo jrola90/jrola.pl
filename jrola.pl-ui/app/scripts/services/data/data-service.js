@@ -16,7 +16,12 @@ myAppModule.service('dataService', function (configService) {
     // 'experience' subcard
     this.getCvExperience = function() {
         return this.dataServiceImpl.getCvExperience();
-    }
+    };
+
+    // 'projects' subcard
+    this.getCvProjects = function() {
+        return this.dataServiceImpl.getCvProjects();
+    };
 
 
 });

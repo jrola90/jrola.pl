@@ -7,10 +7,12 @@
 @import url('index.css');
 @import url('skills.css');
 @import url('experience.css');
+@import url('projects.css');
 @import url('footer.css');
 
 
 /* directives */
 @import url('experience-timeline-directive.css');
+@import url('project-item-directive.css');
 
 

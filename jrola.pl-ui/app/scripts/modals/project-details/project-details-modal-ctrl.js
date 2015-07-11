@@ -1,7 +1,8 @@
 myAppIndexModule
 
-    .controller('IndexCtrl', function ($scope, dataService) {
-        $scope.indexTitle = dataService.getIndexTitle();
+    .controller('ProjectDetailsModalCtrl', function ($scope, $modalInstance, param, uiGridConstants, experienceDetailsModalService) {
+
+        $scope.param = param;
 
         $scope.myInterval = 5000;
         var slides = $scope.slides = [];
@@ -17,6 +18,8 @@ myAppIndexModule
             $scope.addSlide();
         }
 
-
+        $scope.close = function () {
+            $modalInstance.dismiss('cancel');
+        };
 
     });

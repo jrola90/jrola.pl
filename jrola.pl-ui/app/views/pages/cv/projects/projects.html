@@ -1,2 +1,8 @@
 <div ng-include="'views/pages/cv/submenu.html'"></div>
-<p>This is the partial for CV / projects</p>
+<div class="cv-projects-main">
+    <div style="width: 100%; overflow: hidden; text-align: center;">
+        <project-item ng-repeat="project in projects" title="project.name" logo="project.images.logo"
+                      desc="project.desc" images="project.images.gallery">
+        </project-item>
+    </div>
+</div>

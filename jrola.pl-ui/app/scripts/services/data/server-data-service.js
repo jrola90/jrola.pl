@@ -16,4 +16,9 @@ myAppModule.service('serverDataService', function () {
         // TODO: server side
     }
 
+    // 'projects' subcard
+    this.getCvProjects = function() {
+        // TODO: server side
+    };
+
 });

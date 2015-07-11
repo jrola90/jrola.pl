@@ -1,0 +1,47 @@
+div.cv-projects-item {
+    cursor: pointer;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: #006dcc;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    overflow: hidden;
+    border: solid #3f99b6;
+}
+
+div.cv-projects-item:hover {
+    border: solid #006dcc;
+    background-image: url('aaa');
+}
+
+.cv-projects-item-title {
+    width: 100%;
+    background-color: #3f99b6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+.cv-projects-item-click {
+    width: 100%;
+    background-color: white;
+    border-top: solid #006dcc;
+    border-bottom: solid #006dcc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #3f99b6;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right:0;
+    top:110px;
+}
