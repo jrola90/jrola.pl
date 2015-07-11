@@ -5,4 +5,4 @@ angular.module('myApp.version', [
   'myApp.version.version-directive'
 ])
 
-.value('version', '0.1 © ' + new Date().getFullYear());
+.value('version', '0.1');
