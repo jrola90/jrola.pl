@@ -6,12 +6,16 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "~1.4.0",
-    "angular-route": "~1.4.0",
-    "angular-loader": "~1.4.0",
-    "angular-mocks": "~1.4.0",
-    "html5-boilerplate": "~5.2.0",
-    "angular-bootstrap": "0.13.0",
-    "moment": "~2.10.3"
+    "angular": "1.2.26",
+    "angular-route": "1.2.26",
+    "angular-loader": "1.2.26",
+    "angular-mocks": "1.2.26",
+    "html5-boilerplate": "5.2.0",
+    "angular-bootstrap": "~0.11.0",
+    "moment": "2.10.3",
+    "angular-ui-grid": "3.0.0-rc.22"
+  },
+  "resolutions": {
+    "angular": "1.2.26"
   }
 }
