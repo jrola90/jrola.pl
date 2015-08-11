@@ -4,7 +4,7 @@
     "dateStart": "2014-10",
     "dateEnd": "2014-12",
     "name": "Homepage Creator",
-    "desc": "",
+    "desc": "Homepage Creator is the web application that enables teachers and lecturers to set up a web page for their students in a few minutes. Each web page can be fully customized and each page is divided into modules: - announcements module – enables the owner to publish some information, - consultancy module – enables users to sign up for a individual consultancy, - contact module – enables users to write an e-mail to the web site owner, - register module – enables to publish degrees for students, - subpages module – enables to create a subpage with a HTML editor. Each module supports a three permission levels: - a permission to view module for anonymous users, - a permission to view module for logged users, - a permission to view module for individual users (list of users is defined by the website owner). Used technologies: Python, Django, jQuery and MySQL database.",
     "images": {
       "logo": "hc/hc.jpg",
       "gallery": [
@@ -18,7 +18,7 @@
     "dateStart": "2014-10",
     "dateEnd": "2014-12",
     "name": "vigym",
-    "desc": "",
+    "desc": "The Vigym system consists of two applications: a web application and a mobile application. Both of them can work independently. They communicate via the Internet. The mobile application is used to plan a training and gather data. The web application is used to present that data (user can merge a mobile account with account provided by a web application). Users can also compare results with the others. Used technologies: Java, JavaServer Faces, Hibernate, Oracle Database, Weblogic Server, Android SDK, SQLite Database, Maven.",
     "images": {
       "logo": "vigym/vigym.jpg",
       "gallery": [

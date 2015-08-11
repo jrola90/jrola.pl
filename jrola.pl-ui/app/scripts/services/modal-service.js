@@ -20,6 +20,7 @@ myAppModule.service('modalService',
             $modal.open({
                 templateUrl: 'scripts/modals/project-details/project-details.html',
                 controller: 'ProjectDetailsModalCtrl',
+                windowClass : 'cv-projects-modal',
                 resolve: {
                     param: function () {
                         return param;
