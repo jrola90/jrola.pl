@@ -23,5 +23,9 @@ myAppModule.service('dataService', function (configService) {
         return this.dataServiceImpl.getCvProjects();
     };
 
+    // 'courses' subcard
+    this.getCvCourses = function() {
+        return this.dataServiceImpl.getCvCourses();
+    };
 
 });

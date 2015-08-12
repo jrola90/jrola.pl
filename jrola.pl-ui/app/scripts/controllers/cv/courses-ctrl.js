@@ -1,6 +1,7 @@
+myAppCvCoursesModule.controller('CoursesCtrl', function ($scope,dataService) {
 
-myAppCvCoursesModule
+    dataService.getCvCourses().success(function (res) {
+        $scope.courses = res;
+    });
 
-.controller('CoursesCtrl', [function() {
-
-}]);
+});

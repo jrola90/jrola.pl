@@ -23,4 +23,9 @@ myAppModule.service('mockedDataService', function ($http) {
         return $http.get(this.jsonPath + "cv/projects.json");
     };
 
+    // 'courses' subcard
+    this.getCvCourses = function() {
+        return $http.get(this.jsonPath + "cv/courses.json");
+    };
+
 });

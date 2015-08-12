@@ -1,0 +1,14 @@
+<div style="min-width: 600px;">
+    <div style="width: 350px; float: left;">
+        <div style="width: 350px;" class="pointer cv-unselected-course" ng-repeat="row in model" ng-click="selectItem(row.id)"
+             ng-class="{'cv-selected-course' : (row.id===selectedIndex) ,'cv-first-course':($first), 'cv-last-course':($last)}">
+            {{row.name}}
+        </div>
+    </div>
+    <div style="margin-left: 370px;" class="cv-details-course">
+        <b>Date: </b>{{date}}
+        <hr/>
+        <b>Details:</b><br/><br/>
+        {{details}}
+    </div>
+</div>
