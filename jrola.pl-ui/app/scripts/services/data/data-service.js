@@ -28,4 +28,14 @@ myAppModule.service('dataService', function (configService) {
         return this.dataServiceImpl.getCvCourses();
     };
 
+    // 'education' subcard
+    this.getCvEducation = function() {
+        return this.dataServiceImpl.getCvEducation();
+    };
+
+    // 'other' subcard
+    this.getCvOther = function() {
+        return this.dataServiceImpl.getCvOther();
+    };
+
 });

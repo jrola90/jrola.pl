@@ -2,6 +2,10 @@
 
 myAppCvEducationModule
 
-    .controller('EducationCtrl', [function () {
+    .controller('EducationCtrl', function ($scope, dataService) {
 
-    }]);
+        dataService.getCvEducation().success(function (res) {
+            $scope.education = res;
+        });
+
+    });

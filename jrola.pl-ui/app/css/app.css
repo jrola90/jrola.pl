@@ -9,8 +9,12 @@
 @import url('experience.css');
 @import url('projects.css');
 @import url('courses.css');
+@import url('education.css');
+@import url('other.css');
 @import url('footer.css');
 
 /* directives */
 @import url('experience-timeline-directive.css');
 @import url('project-item-directive.css');
+@import url('course-table-directive.css');
+@import url('education-item-directive.css');

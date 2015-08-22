@@ -1,2 +1,4 @@
 <div ng-include="'views/pages/cv/submenu.html'"></div>
-<p>This is the partial for CV / education</p>
+<div class="cv-education-main">
+    <education-item ng-repeat="item in education" ng-if="education" model="item" />
+</div>

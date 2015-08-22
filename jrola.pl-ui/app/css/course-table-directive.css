@@ -1,0 +1,23 @@
+.cv-selected-course {
+    background-color: #B0E0E6 !important;
+    padding: 10px;
+}
+
+.cv-unselected-course {
+    background-color: #00BFFF;
+    padding: 10px;
+}
+
+.cv-first-course {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cv-last-course {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.cv-details-course {
+    background-color: #B0E0E6;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}

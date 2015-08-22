@@ -1,0 +1,52 @@
+[
+  {
+    "schoolName": "Politechnika Krakowska im. Tadeusza Kościuszki (Cracow University of Technology)",
+    "faculty": "test",
+    "dateStart": "2013-04",
+    "dateEnd": "2014-09",
+    "degree": "Magister",
+    "mark": "5.0 (honours degree)",
+    "logo": "pk.png",
+    "courses": [
+      [
+        {"name": "1"},
+        {"name": "2"},
+        {"name": "3"}
+      ],
+      [{"name": "4"}],
+      [
+        {"name": "5"},
+        {"name": "6"}
+      ],
+      [
+        {"name": "1"},
+        {"name": "2"},
+        {"name": "3"}
+      ],
+      [{"name": "4"}],
+      [
+        {"name": "5"},
+        {"name": "6"}
+      ],
+      [{"name": "000"}]
+    ]
+  },
+  {
+    "schoolName": "Politechnika Krakowska im. Tadeusza Kościuszki (Cracow University of Technology)",
+    "faculty": "test",
+    "dateStart": "2013-04",
+    "dateEnd": "2014-09",
+    "degree": "Magister",
+    "mark": "5.0 (honours degree)",
+    "logo": "pk.png",
+    "courses": [
+      [
+        {"name": "y1"},
+        {"name": "y2"},
+        {"name": "y3"}
+      ],
+      [{"name": "y4"}],
+      [{"name": "y000"}]
+    ]
+  }
+]

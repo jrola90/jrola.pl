@@ -20,13 +20,25 @@ myAppModule.service('modalService',
             $modal.open({
                 templateUrl: 'scripts/modals/project-details/project-details.html',
                 controller: 'ProjectDetailsModalCtrl',
-                windowClass : 'cv-projects-modal',
+                windowClass: 'cv-projects-modal',
                 resolve: {
                     param: function () {
                         return param;
                     }
                 }
             });
-        }
+        };
+
+        this.openEducationCoursesPopup = function (param) {
+            $modal.open({
+                templateUrl: 'scripts/modals/education-courses/education-courses.html',
+                controller: 'EducationCoursesModalCtrl',
+                resolve: {
+                    param: function () {
+                        return param;
+                    }
+                }
+            });
+        };
 
     });

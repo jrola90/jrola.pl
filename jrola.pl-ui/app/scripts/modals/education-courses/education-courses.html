@@ -1,0 +1,13 @@
+<div class="modal-header">
+    <h3>Courses</h3>
+</div>
+<div class="modal-body" style="text-align: center;">
+    <div ui-grid="gridOptions" class="grid"></div>
+    <pagination ng-change="pageChanged()" items-per-page="1" total-items="totalItems" ng-model="currentPage" max-size="maxSize" class="pagination-sm" boundary-links="true"></pagination>
+</div>
+<div class="modal-footer" style="color: #0000FF">
+
+    <button class="btn btn-primary"
+            data-ng-click="close()">Close
+    </button>
+</div>

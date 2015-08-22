@@ -1,0 +1,14 @@
+.education-item {
+    background-color: #B0E0E6;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-height: 160px;
+}
+
+.education-logo {
+    float: right;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    padding: 10px;
+}
