@@ -12,27 +12,32 @@ myAppModule.service('serverDataService', function () {
     };
 
     // 'experience' subcard
-    this.getCvExperience = function() {
+    this.getCvExperience = function () {
         // TODO: server side
     }
 
     // 'projects' subcard
-    this.getCvProjects = function() {
+    this.getCvProjects = function () {
         // TODO: server side
     };
 
     // 'courses' subcard
-    this.getCvCourses = function() {
+    this.getCvCourses = function () {
         // TODO: server side
     };
 
     // 'education' subcard
-    this.getCvEducation = function() {
+    this.getCvEducation = function () {
         // TODO: server side
     };
 
     // 'other' subcard
-    this.getCvOther = function() {
+    this.getCvOther = function () {
+        // TODO: server side
+    };
+
+    // 'contact' card
+    this.getContact = function () {
         // TODO: server side
     };
 

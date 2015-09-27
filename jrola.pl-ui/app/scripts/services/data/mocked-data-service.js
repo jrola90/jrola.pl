@@ -38,4 +38,9 @@ myAppModule.service('mockedDataService', function ($http) {
         return $http.get(this.jsonPath + "cv/other.json");
     };
 
+    // 'contact' card
+    this.getContact = function() {
+        return $http.get(this.jsonPath + "contact/contact.json");
+    }
+
 });

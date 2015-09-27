@@ -1,2 +1,10 @@
 <div ng-include="'views/pages/contact/submenu.html'"></div>
-<p>This is the partial for contact</p>
+<div class="cv-courses-main">
+    {{text}}
+    <br />
+
+    <contact-item ng-repeat="contact in contacts" ng-if="contact" model="contact" />
+
+</div>
+
+

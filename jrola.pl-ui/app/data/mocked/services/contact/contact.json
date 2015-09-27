@@ -1,0 +1,17 @@
+{
+  "desc" : "If you have a question, and you can't find the answer on this website, feel free to get in touch:",
+  "list": [
+    {
+      "name": "E-mail",
+      "value": "jartswhatestogetspam@@tlen.pl",
+      "image": "email.png",
+      "desc": ""
+    },
+    {
+      "name": "LinkedIn",
+      "value": "http://pl.linkedin.com/in/jrola90",
+      "image": "linkedin.png",
+      "desc": ""
+    }
+  ]
+}

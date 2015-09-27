@@ -38,4 +38,9 @@ myAppModule.service('dataService', function (configService) {
         return this.dataServiceImpl.getCvOther();
     };
 
+    // 'contact' card
+    this.getContact = function () {
+        return this.dataServiceImpl.getContact();
+    };
+
 });
